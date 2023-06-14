@@ -36,27 +36,27 @@ a {
 
   @include u.set-bg(c.$primary-color);
 
-  & nav {
+  nav {
     display: grid;
     grid: 1fr / auto auto;
     align-items: center;
   }
 
-  & ul {
+  ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
   }
   
-  & h1 {
+  h1 {
     font-size: 4rem;
   }
 
-  & h1.banner {
+  h1.banner {
     font-size: 1.5rem;
   }
 
-  & p {
+  p {
     font-size: 1.3rem;
   }
 
